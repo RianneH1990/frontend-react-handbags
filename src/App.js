@@ -11,8 +11,6 @@ import our_story from "./assets/our_story.png"
 import Tile from "./Tile"
 
 
-
-
 function App() {
   return (
       <div>
@@ -56,7 +54,6 @@ function App() {
                   name={"The trendy bag"}
                   price={"€150,-"}
               />
-
           </main>
           <footer>
               <Tile
@@ -73,7 +70,6 @@ function App() {
                   header={"Our story"}
                   text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, beatae distinctio doloribus error explicabo fuga in iure laboriosam libero magnam neque nihil officiis perferendis placeat quaerat, qui sed veritatis? Consequuntur dicta fugit laborum recusandae repellendus sit temporibus. Accusantium, distinctio mollitia?"}
               />
-
           </footer>
       </div>
   );
